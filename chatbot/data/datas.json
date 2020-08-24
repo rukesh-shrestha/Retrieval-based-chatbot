@@ -1,0 +1,293 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Whats up"
+            ],
+            "responses":[
+                "Hello!",
+                "Good to see you",
+                "Hi there, how can I help?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses":[
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"morning",
+            "patterns":[
+                "Good morning",
+                "morning",
+                "mrg"
+            ],
+            "responses":[
+                "Good morning sir/mam. How can i helpyou?",
+                "Warm welcome to the herald college sir/mam. How can i assist you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "Could you please tell me your name?",
+                "who are you?"
+            ],
+            "responses":[
+                "Hi sir/mam. I am Artificial Intelligence(AI)."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"afternoon",
+            "patterns":[
+                "Good afternoon",
+                "afternoon",
+                "aftnoon"
+            ],
+            "responses":[
+                "Good afternoon sir/mam. How can i assist you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"hours",
+            "patterns":[
+                "when are you guys open?",
+                "what are your working hours",
+                "hours of operation",
+                "Could you please tell me working hours so that i can visit college?"
+            ],
+            "responses":[
+                "We are open 7am-4pm Monday-Friday!"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"evening",
+            "patterns":[
+                "Good evening",
+                "evening"
+            ],
+            "responses":[
+                "Good evening sir/mam. How can i help you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"programme",
+            "patterns":[
+                "What kind of program do you have in your college?",
+                "Could you please mention the field of study? "
+            ],
+            "responses":[
+                "Recently, we have two field of study in our college. First, Bachelor's in computer science and second Bachelors in International Business Management."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"developed",
+            "patterns":[
+                "who developed you?",
+                "who is the idea behind you?"
+            ],
+            "responses":[
+                "Member of AI community developed me."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"college name",
+            "patterns":[
+                "What is your college name?",
+                "whats the name of your college?"
+            ],
+            "responses":[
+                "Our college name is Herald College Kathmandu."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"addressed",
+            "patterns":[
+                "Where is your college situated?",
+                "where is this college situated?",
+                "Can you tell me the address of your college?"
+            ],
+            "responses":[
+                "Herald College is situated at bishalnagar, hadigaun, Kathmandu."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"method",
+            "patterns":[
+                "From which methods you teaches your student?",
+                "which method of teaches did you followed?",
+                "which technique is used to teach your student."
+            ],
+            "responses":[
+                "Sir/mam, we followed modern technique to well educated our student. Our college provide UK degree with equivalent to TU. We manily focuses on LTW method. L represent lecture, T represent Tutorial and W represent workshop. We provide same education and opportunity  to our student as in University of Wolverhampton."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"BIT",
+            "patterns":[
+                "Can you tell me about BIT programme?",
+                "Please tell me about IT course.",
+                "Tell me about IT."
+            ],
+            "responses":[
+                "This programme aims to provide students with the knowledge of core principles of computer science by combining it with modern computer languages, tools, techniques, and methodologies used by computer professional all over the world. Students will be able to develop and enhance themselves as a programmer, along with problem solving skills. You will learn how to develop software that meets client needs and will have the opportunity to develop a piece of software for your final project. This BIT in computing course provides an excellent stepping stone to allow you to move directly into a career in Computing."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"IT",
+            "patterns":[
+                "Please tell me about IT course.",
+                "Tell me about IT."
+            ],
+            "responses":[
+                "This programme aims to provide students with the knowledge of core principles of computer science by combining it with modern computer languages, tools, techniques, and methodologies used by computer professional all over the world. Students will be able to develop and enhance themselves as a programmer, along with problem solving skills. You will learn how to develop software that meets client needs and will have the opportunity to develop a piece of software for your final project. This BIT in computing course provides an excellent stepping stone to allow you to move directly into a career in Computing."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"BBA",
+            "patterns":[
+                "Can you tell me about BBA programme?",
+                "Please tell me about business course.",
+                "Tell me about business courses."
+            ],
+            "responses":[
+                "As our degree is UK university affailated. We call BBA as Bachelors in International Business Management. International Business has been the major phenomena to increase the knowledge and expertise worldwide. Organisations are going beyond boundaries to compete in the international market. These organisations need experts who can devise international strategies to work across multicultural barriers. This programme covers most important topics in international business, including emerging markets, globalisation, the role of trust, and comparing markets and business environments in different countries. As well as building an understanding of multinational companies and their strategies, you will explore how local companies can adapt these entrepreneurial and innovative manners to create an economic growth both inside and outside the nation."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"requirement",
+            "patterns":[
+                "Can you tell me about requirement to join your college?",
+                "What are the requirement to get admission in this college? ",
+                "Could you tell me about the requirement to be part of this college."
+            ],
+            "responses":[
+                "For the BBA: NEB 10+2 overall aggregate of 1.8 CGPA (45%) or above, Year 12 English grade ‘C’ (45%) or above, and SLC Mathematics score of 50% above with each subject theory and practical grade ‘D+’ or above or 2 ‘A’ level subject passes, and a pass in General Paper (A or AS Level) or English (A or AS Level) with Grade E and above.",
+                "for the BIT: Entry Requirements for Bachelors Degree Track NEB 10+2 overall aggregate of 2.2 CGPA (55%) or above, Year 12 English grade ‘B’ (60%) or above, and SLC Mathematics score of 50% above with each subject theory and practical grade D+ or above or 2 ‘A’ Level passes with minimum grades A to C or 3 ‘A’ Level passes with minimum grades D and above; and General Paper (A or AS Level) or English (A or AS Level) with Grade E and above.Entry Requirements for University Foundation Course NEB 10+2 overall aggregate of 1.8 CGPA (45%) or above, Year 12 English grade ‘C’ (45%) or above, and SLC Mathematics score of 50% above with each subject theory and practical grade ‘D+’ or above or 2 ‘A’ level subject passes, and a pass in General Paper (A or AS Level) or English (A or AS Level) with Grade E and above. Applicants not meeting the aforementioned criteria for English can substitute with the following standarised English Tests:IELTS overall band 5.5 with minimum 5.5 in each band or Pearson Test of English Score above 47."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"number",
+            "patterns":[
+                "How can i contact you?",
+                "Could you please give me your number so that i can call you.",
+                "Please provide me your number."
+            ],
+            "responses":[
+                "9801022637, 01-4010120, 01-4010121 :- You can call in any of the number."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"email",
+            "patterns":[
+                "Can i get your mail?",
+                "Can i contact you through mail?",
+                "Please provide me your email address."
+            ],
+            "responses":[
+                " You can contact us in :- info@heraldcollege.edu.np"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"okay",
+            "patterns":[
+                "okay sir/mam",
+                "okay"
+            ],
+            "responses":[
+                "okay sir/mam"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"offensive",
+            "patterns":[
+                "sala kutta kamina.",
+                "oi sale khate",
+                "oi mug",
+                "madargat",
+                "fuck you",
+                "hey bitch",
+                "hi mother fucker",
+                "tero tauko, your head",
+                "hello son of the bitch",
+                "hey bhaster",
+                "hey bhaster, kutta kamina, tero tauko, fuck, o fuck"
+            ],
+            "responses":[
+                "if you continue using such offensive and vulgar words to seek our assistance. we will be compelled to blacklist you from online support services. thank you!"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"namastae",
+            "patterns":[
+                "namastae sir/mam.",
+                "namaskar sir/mam"
+            ],
+            "responses":[
+                "namastae sir/mam. how can we help you?",
+                "namastae sir/mam. how can we help you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"caring",
+            "patterns":[
+                "How are you?",
+                "How you doing?"
+            ],
+            "responses":[
+                "hi, i am fine. How about you?  "
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"finetoo",
+            "patterns":[
+                "I am fine too.",
+                "I am gud."
+            ],
+            "responses":[
+                "Okay sir/mam, do you have any query."
+            ],
+            "context_set":""
+        }
+    ]
+}
