@@ -18,4 +18,6 @@ Python file app is the main file of the flask. It include only the code needed i
 If you want to make our own retrieval based chatbot, you have to look into retrieval_model and use_model file. You can change the dataset, train the model and use that model.
 Below figure shows, the conversation sample of the project.
 
+#python
+
  ![](chatbot/Capture.JPG)
